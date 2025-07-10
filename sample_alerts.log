@@ -1,0 +1,20 @@
+07/10/2025-10:44:52.796458  [**] [1:1000002:1] Nmap TCP SYN scan detected [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.8.102:50438 -> 142.250.74.227:80
+07/10/2025-10:45:53.198971  [**] [1:1000002:1] Nmap TCP SYN scan detected [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.8.102:43154 -> 142.250.74.227:443
+07/10/2025-10:46:01.393874  [**] [1:1000002:1] Nmap TCP SYN scan detected [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.8.102:50426 -> 142.250.74.227:80
+07/10/2025-10:46:01.394010  [**] [1:1000002:1] Nmap TCP SYN scan detected [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.8.102:50438 -> 142.250.74.227:80
+07/10/2025-10:46:01.394827  [**] [1:1000002:1] Nmap TCP SYN scan detected [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.8.102:54834 -> 149.104.88.27:443
+07/10/2025-10:46:01.395184  [**] [1:1000002:1] Nmap TCP SYN scan detected [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.8.102:54844 -> 149.104.88.27:443
+07/10/2025-11:56:20.487393  [**] [1:1000002:1] Nmap TCP SYN scan detected [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.8.102:40152 -> 64.233.184.108:587
+07/10/2025-11:56:20.976224  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 64.233.184.108:587 -> 192.168.8.102:40152
+07/10/2025-11:56:23.623242  [**] [1:1000002:1] Nmap TCP SYN scan detected [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.8.102:40160 -> 64.233.184.108:587
+07/10/2025-11:56:24.103867  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 64.233.184.108:587 -> 192.168.8.102:40160
+07/10/2025-11:56:26.634967  [**] [1:1000002:1] Nmap TCP SYN scan detected [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.8.102:34738 -> 64.233.184.108:587
+07/10/2025-11:56:26.932238  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 64.233.184.108:587 -> 192.168.8.102:34738
+07/10/2025-11:56:29.452064  [**] [1:1000002:1] Nmap TCP SYN scan detected [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.8.102:34740 -> 64.233.184.108:587
+07/10/2025-11:56:29.797801  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 64.233.184.108:587 -> 192.168.8.102:34740
+07/10/2025-11:57:53.406724  [**] [1:1000002:1] Nmap TCP SYN scan detected [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.8.102:42426 -> 146.19.236.204:443
+07/10/2025-11:57:53.493587  [**] [1:1000002:1] Nmap TCP SYN scan detected [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.8.102:33260 -> 64.233.184.108:587
+07/10/2025-11:57:53.532125  [**] [1:1000002:1] Nmap TCP SYN scan detected [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.8.102:42440 -> 146.19.236.204:443
+07/10/2025-11:57:53.906987  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 64.233.184.108:587 -> 192.168.8.102:33260
+07/10/2025-11:57:53.965369  [**] [1:1000002:1] Nmap TCP SYN scan detected [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.8.102:59812 -> 149.104.88.27:443
+07/10/2025-11:57:54.675818  [**] [1:1000002:1] Nmap TCP SYN scan detected [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.8.102:39130 -> 149.104.88.27:443
