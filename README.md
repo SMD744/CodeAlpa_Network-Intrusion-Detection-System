@@ -96,5 +96,20 @@ ping IP_Address
 curl http://testmaliciousdomain.com
 
 
+🤝 Contributing
+Contributions welcome! Please:
 
+Fork the repository
+
+Create a feature branch
+
+Submit a pull request
+
+
+📧 Contact
+For questions/support:
+
+Email: Oyewolesamadoluwasanjo@email.com
+
+GitHub: @SMD744
 
