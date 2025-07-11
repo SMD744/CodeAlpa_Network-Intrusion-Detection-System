@@ -1,7 +1,7 @@
 #!/bin/bash
 
-FAST_LOG="/var/log/suricata/fast.log"
-BLOCKED_IPS="/tmp/blocked_ips.txt"  # Now just a log of detected IPs (not blocked)
+FAST_LOG="../logs/suricata_alerts.log"
+DETECTED_IPS="../logs/detected_ips.log"
 EMAIL="youremail@gmail.com"
 
 sudo touch "$BLOCKED_IPS"
