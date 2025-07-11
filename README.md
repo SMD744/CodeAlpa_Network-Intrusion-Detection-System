@@ -86,6 +86,10 @@ alert ip [146.19.236.204,149.104.88.27] any -> any any (msg:"Known Malicious IP"
 
 # View alerts in real-time
 tail -f /var/log/suricata/fast.log
+#view alerts in json format
+sudo apt-get install jq 
+sudo tail -f /var/log/suricata/eve.json | jq 'select (.event_type=="alert")'
+
 
 🧪 Testing Your Setup
 # Port scan (should trigger alerts)
