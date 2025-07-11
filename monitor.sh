@@ -1,7 +1,7 @@
 #!/bin/bash
 
-FAST_LOG="/var/log/suricata/fast.log"
-DETECTED_IPS="/tmp/detected_ips.txt"
+FAST_LOG="../logs/suricata_alerts.log"
+DETECTED_IPS="../logs/detected_ips.log"
 EMAIL="youremail@gmail.com"
 
 # Whitelist configuration (simple IPs or ranges)
