@@ -14,18 +14,21 @@ This repository contains a complete implementation of a **Suricata-based NIDS** 
 ---
 
 ## 🛠️ File Structure
-
 CodeAlpha_ProjectName/
 ├── config/
-│ └── suricata.yaml # Main configuration file
-├── rules/
-│ └── local.rules # Custom detection rules
+│   ├── suricata.yaml
+│   └── whitelist.conf          # NEW whitelist configuration
 ├── scripts/
-│ ├── monitor_alerts.sh # Email notification script
-│ └── auto_block.sh # IP blocking script
-├── docs/
-│ └── setup_guide.md # Detailed installation steps
-└── README.md # This file
+│   ├── autoblock.sh            # IP blocking script
+│   └── monitor.sh              # Your enhanced monitoring script
+├── rules/
+│   └── local.rules
+├── logs/
+│   ├── detected_ips.log        # NEW - for monitored IPs
+│   └── sample_alerts.log
+└── README.md                   # Updated instructions
+
+
 
 
 ---
