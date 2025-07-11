@@ -87,6 +87,19 @@ alert ip [146.19.236.204,149.104.88.27] any -> any any (msg:"Known Malicious IP"
 
 📊 Monitoring & Verification
 
+# Initialize logs directory
+mkdir -p logs && touch logs/suricata_alerts.log
+
+# Start Suricata (replace eth0 with your interface)
+sudo suricata -c /etc/suricata/suricata.yaml -i eth0
+
+# Choose ONE monitoring method:
+# Email alerts (no root needed)
+./scripts/monitor.sh
+
+# OR auto-blocking (requires sudo)
+sudo ./scripts/autoblock.sh
+
 # View alerts in real-time
 tail -f /var/log/suricata/fast.log
 #view alerts in json format
